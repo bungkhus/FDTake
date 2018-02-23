@@ -345,7 +345,7 @@ extension FDTakeController : UIImagePickerControllerDelegate, UINavigationContro
             self.didGetVideo?(info[UIImagePickerControllerMediaURL] as! URL, info)
         }
 
-        picker.dismiss(animated: true, completion: nil)
+        //picker.dismiss(animated: true, completion: nil)
     }
 
     /// Conformance for image picker delegate
